@@ -12,7 +12,7 @@ print("Please select operation -\n" \
 select = int(input("Select operations form 1, 2, 3, 4, 5 :"))
   
 val_1 = int(input("Enter first number: "))
-val_2 = int(input("Enter second number: "))
+val_2 = int(input("Enter second number "))
 
 if select == 1:
     print(val_1, ">", val_2, "=",val_1>val_2)
