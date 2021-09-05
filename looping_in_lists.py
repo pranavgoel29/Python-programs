@@ -10,3 +10,8 @@ for car in cars:                        # This line just pull a name from cars l
 
 for cycle in cars:
     print("\n",cycle)
+
+# We can also use the `title` method here in loop too.
+for car in cars:
+    print(car.title()+", is a great character.")
+
