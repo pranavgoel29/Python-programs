@@ -13,4 +13,14 @@ print(bicycle)
 bicycle.append('kross')         # It will add `kross` at the end of the list.
 print(bicycle)
 
+# Insertion of a new element in a list, it is bit different then appending an element in a list as this method gives us the flexibility of adding the new element at any position in the list unlike of append in end.
+
+bicycle.insert(1, 'bmw')
+print(bicycle)
+
+# Removing an element from a list is easy, we can just use `del`.
+
+del bicycle[0]          # This will delete the element placed at index 0 to be removed from the list.
+print(bicycle)
+
 
