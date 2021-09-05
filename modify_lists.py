@@ -24,3 +24,23 @@ del bicycle[0]          # This will delete the element placed at index 0 to be r
 print(bicycle)
 
 
+# If we wanrt to use the removed value then we can use `pop` method.
+
+popped_bicycle = bicycle.pop()          # This will remove the last element of the list, and it will also store that value in the var.
+
+print(popped_bicycle)
+print(bicycle)
+
+# We can also use `pop` method to remove the element from any position in the list.
+
+popped_bicycle = bicycle.pop(1)
+
+print(popped_bicycle)
+print(bicycle)
+
+# There is one another method we can also remove an element by it's value by using `remove` method.
+
+luxury_bicycle = 'bmw'
+bicycle.remove(luxury_bicycle)          # This method removes the element when it firsts encounter it and stops after that.
+
+print(bicycle)
