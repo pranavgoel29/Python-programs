@@ -1,5 +1,7 @@
 # Program to show how if-else statement works.
 
+print("Enter values for the addition: ")
+
 a = int(input())
 b = int(input())
 
