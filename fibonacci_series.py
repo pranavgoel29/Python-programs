@@ -1,3 +1,8 @@
+# Program to find Fibonnaci series.
+
+import os
+os.system("cls")
+
 num= int(input("Enter the number of terms: "))
 num1=0 
 num2=1
