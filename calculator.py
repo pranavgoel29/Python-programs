@@ -1,4 +1,7 @@
-#program to perform arithematic operations
+#program to perform arithematic operations or known as simple calculator.
+
+import os
+os.system("cls")
 
 print("Please select operation -\n" \
         "1. Add\n" \
