@@ -3,7 +3,7 @@
 import os
 os.system("cls")
 
-for i in range(1,50):
+for i in range(1,51):
     if(i%3 == 0):
         print("\nThe multiple of 3:\nFizz")
     if(i%5 == 0):
