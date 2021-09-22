@@ -11,7 +11,7 @@ print("Please select operation -\n" \
   
   
 # Take input from the user 
-select = int(input("Select operations form 1, 2, 3, 4 :"))
+select = int(input("Select operations form 1, 2, 3, 4 : "))
   
 val_1 = int(input("Enter first number: "))
 val_2 = int(input("Enter second number: "))
