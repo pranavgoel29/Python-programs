@@ -6,13 +6,13 @@ os.system("cls")
 for i in range(1,51):
     
     if(i%3 == 0):
-        print("The multiple of 3:\nFizz")
-        continue
+        print("The multiple of 3: Fizz")
+        # continue
     if(i%5 == 0):
-        print("The multiple of 5:\nBuzz")
-        continue
+        print("The multiple of 5: Buzz")
+        # continue
     if(i%3 == 0 and i%5 == 0):
-        print("The multiple of both 3 and 5:\nFizzBuzz")
-        continue
-    else:
+        print("The multiple of both 3 and 5: FizzBuzz")
+        # continue
+    if(i%3 != 0 and i%5 != 0):
         print(i)
