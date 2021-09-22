@@ -4,9 +4,15 @@ import os
 os.system("cls")
 
 for i in range(1,51):
+    
     if(i%3 == 0):
-        print("\nThe multiple of 3:\nFizz")
+        print("The multiple of 3:\nFizz")
+        continue
     if(i%5 == 0):
-        print("\nThe multiple of 5:\nBuzz")
+        print("The multiple of 5:\nBuzz")
+        continue
     if(i%3 == 0 and i%5 == 0):
-        print("\nThe multiple of both 3 and 5:\nFizzBuzz")
+        print("The multiple of both 3 and 5:\nFizzBuzz")
+        continue
+    else:
+        print(i)
