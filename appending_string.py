@@ -1,3 +1,7 @@
+import os
+os.system("cls")
+
+
 name = "Ron"
 name = 'D' + name[1:]
 

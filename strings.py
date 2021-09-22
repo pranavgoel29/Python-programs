@@ -1,3 +1,7 @@
+import os
+os.system("cls")
+
+
 string = "harry potter"
 
 # `title` method change the first letter of every word to upper case.

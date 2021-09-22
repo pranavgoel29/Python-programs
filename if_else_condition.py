@@ -1,5 +1,8 @@
 # Program to show how if-else statement works.
 
+import os
+os.system("cls")
+
 print("Enter values for the addition: ")
 
 a = int(input())
