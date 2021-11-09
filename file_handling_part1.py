@@ -1,4 +1,5 @@
 #Program to open and close files.
+#And check for a char in the line and don't copy that line in another file.
 
 import os
 os.system("cls")
