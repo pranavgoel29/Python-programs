@@ -1,4 +1,3 @@
-line = ""
-# while line:
-#     line = newfile.readlines()
-#     print(line)
+for V in text:
+    
+#         countV += 1
